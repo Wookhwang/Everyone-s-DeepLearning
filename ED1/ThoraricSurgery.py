@@ -17,6 +17,7 @@ tf.random.set_seed(3)
 Data_set = np.loadtxt("ThoraricSurgery.csv", delimiter=",")
 
 # 환자의 기록과 수술 결과를 X와 Y로 구분하여 저장합니다.
+# X = attribute, Y = class
 X = Data_set[:,0:17]
 Y = Data_set[:,17]
 
